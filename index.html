@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetación con divs</title>
+        <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos_maquetacion.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-bold-straight/css/uicons-bold-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <!-- COLOCA TU LOGO AQUÍ -->
+                <a href="index.html">
+                    <img src="img/prefeco.png"  alt="Coloca tu logo aquí">
+                </a>
+            </div>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html"><i class="fi fi-bs-login-lock"></i>Inicio</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="#"><i class="fi fi-sr-customer-care"></i>Servicios ▾</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Diseño Digital</a></li>
+                            <li><a href="#">Páginas Web</a></li>
+                            <li><a href="#">Mantenimiento y redes de cómputo</a></li>
+                        </ul>
+                    </li>
+                   
+
+                    <li><a href="#">Proyectos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="login.html" class="btn-login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!-- Banner Principal -->
+<div class="swiper mainBanner">
+    <div class="swiper-wrapper">
+        
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="BANER/PLAYA 1.avif" alt="Oferta 1">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>playa</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="BANER/PLAYA 2.webp" alt="Oferta 2">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>PLAYAS LINDAS</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="BANER/PLAYA 3.webp" alt="Oferta 2">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>ATARDECERES LINDOS</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+ <!-- Slide 4-->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="BANER/PLAYA 4.jpg" alt="Oferta 1">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>playas lindas</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+ <!-- Slide 5-->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="BANER/PLAYA 5.jpg" alt="Oferta 1">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>playas cancunenses</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+  <!-- Slide 6-->
+        <div class="swiper-slide">
+            <a href="#" class="banner-link">
+                <img src="BANER/PLAYA 6.avif" alt="Oferta 1">
+                <div class="banner-content">
+                    <div class="text-box">
+                        <h1>playas cristalinas</h1>
+                    </div>
+                </div>
+            </a>
+        </div>
+ 
+
+    <!-- Controles -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</div>
+    <main class="container" style="padding: 100px 0;">
+        <h1 style="font-size: 3rem; margin-bottom: 20px;">Maquetación con divs</h1>
+        <p style="font-size: 1.2rem; max-width: 600px;">Esta plantilla es responsiva, tiene un menú con animaciones suaves y un pie de página profesional dividido en 3 secciones.</p>
+        <!-- SECCIÓN DE NOTICIAS Y EVENTOS -->
+        <section class="seccion-info">
+            
+            <!-- FILA DE 2 CUADROS (Noticias Destacadas) -->
+            <h2 class="titulo-seccion">Noticias Recientes</h2>
+            <div class="contenedor-dos">
+                <div class="cuadro cuadro-grande">
+                    <div class="imagen-placeholder">aqui va la imagen</div>
+                    <h3>Firma de Calificaciones</h3>
+                    <p>Estimado Padre de Familia, asiste a la firma de calificaciones para el semestre en curso. Puedes consultarlas en el portal del alumno.</p>
+                    <a href="#" class="leer-mas">Leer más</a>
+                </div>
+                <div class="cuadro cuadro-grande">
+                    <div class="imagen-placeholder">aqui va la imagen</div>
+                    <h3>Mundialito 2026</h3>
+                    <p>Se acerca el evento más esperado del año. No te pierdas las últimas novedades.</p>
+                    
+                    <a href="#" class="leer-mas">Leer más</a>
+                </div>
+            </div>
+
+            <!-- FILA DE 3 CUADROS (Eventos o Info Rápida) -->
+            <h2 class="titulo-seccion">Próximos Eventos</h2>
+            <div class="contenedor-tres">
+    <!-- Cuadro con Imagen -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            aqui va la imagen
+        </div>
+        <h4>Taller de Diseño</h4>
+        <p>15 de Mayo - 10:00 AM</p>
+    </div>
+
+    <!-- Cuadro con Video -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            <video controls>
+                <source src="video/nombre_video.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+        </div>
+        <h4>Webinar Online</h4>
+        <p>20 de Mayo - 04:00 PM</p>
+    </div>
+
+    <!-- Cuadro con Info Rápida (Solo texto si quieres) -->
+    <div class="cuadro cuadro-pequeno">
+        <div class="media-container">
+            <img src="img/evento3.jpg" alt="Evento">
+        </div>
+        <h4>Reunión Mensual</h4>
+        <p>30 de Mayo - 09:00 AM</p>
+    </div>
+</div>
+</section>
+
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Contacto</h4>
+                    <p>📍 Av. de los Emprendedores 404</p>
+                    <p>📞 +52 993 123 4567</p>
+                    <p>✉️ hola@tupagina.com</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Ubicación</h4>
+                    <p>Villahermosa, Tabasco</p>
+                    <p>México, CP 86000</p>
+                    <a href="#">Ver en Google Maps</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Aviso de Privacidad</a></li>
+                        <li><a href="#">Soporte al Cliente</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Nombre del alumno. Grado y grupo. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<SCript:src><BANER class="JS"></BANER></SCript:src>
+</body>
+</html>
